@@ -2,6 +2,8 @@
 
 The Expense Tracker Android Application is a feature-rich and user-friendly mobile app designed to help you manage your finances efficiently. With an intuitive interface, advanced features, and robust security, this app makes tracking your expenses a breeze.
 
+![Expense Tracker App]("C:\Users\divia\OneDrive\Desktop\Screenshot_2023-09-24-18-08-51-60_3a70945bc5b3aad97b1cb9bb49321db3.png")
+
 ## Features
 
 ### 1. Expense Logging
