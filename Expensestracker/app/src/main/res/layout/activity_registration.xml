@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/registrationbackground"
+    tools:context=".registration">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registration"
+        android:textSize="55sp"
+        android:textColor="#EFF3EF"
+        android:gravity="center"
+        android:layout_marginTop="130dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:padding="7dp"
+        />
+
+    <EditText
+        android:id="@+id/registrationname"
+        android:layout_width="match_parent"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+
+        android:ems="15"
+        android:hint="@string/name"
+        android:textSize="25sp"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:textCursorDrawable="@drawable/customcursor"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/customedittext"
+        android:inputType="text"
+        android:padding="7dp"
+        android:importantForAutofill="no" />
+
+    <EditText
+        android:id="@+id/registrationemail"
+        android:layout_width="match_parent"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:ems="15"
+        android:hint="@string/email"
+        android:textSize="25sp"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/baseline_email_24"
+        android:drawablePadding="10dp"
+        android:textCursorDrawable="@drawable/customcursor"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/customedittext"
+        android:inputType="text"
+        android:padding="7dp"
+        android:importantForAutofill="no"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/registrationpass"
+        android:layout_width="match_parent"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="11dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/baseline_password_24"
+        android:drawablePadding="10dp"
+        android:textCursorDrawable="@drawable/customcursor"
+        android:backgroundTint="@color/white"
+        android:background="@drawable/customedittext"
+        android:ems="10"
+        android:hint="@string/password"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:inputType="textPassword"
+        android:padding="7dp"
+        android:importantForAutofill="no"
+        />
+
+    <Button
+        android:id="@+id/buttonRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="3dp"
+        android:backgroundTint="#07500D"
+        android:layout_marginEnd="80dp"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:background="@drawable/customloginbutton"
+        android:textColor="@color/white"
+        android:padding="17dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/regsignin"
+        android:text="@string/already_have_an_account_signin_here"
+        android:textAlignment="center"
+        android:textSize="15sp"/>
+
+
+
+</LinearLayout>

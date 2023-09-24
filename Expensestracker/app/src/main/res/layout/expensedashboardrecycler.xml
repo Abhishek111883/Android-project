@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:padding="10dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/purpose_in_dashboard_expense"
+            android:text="Purpose"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dashboard_recycle_expense"
+            android:text="Expense"
+            android:textColor="#CC0D09"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dashboard_recycle_date_expense"
+            android:text="Date"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="7dp"
+    tools:context=".incomeFragment">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:backgroundTint="@color/cardColor"
+       android:layout_gravity="fill"
+       app:cardCornerRadius="35dp"
+       app:cardElevation="8dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="183dp"
+           android:layout_margin="2dp"
+           android:gravity="center"
+           android:orientation="horizontal">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:gravity="start">
+
+               <TextView
+                   android:layout_width="151dp"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:text="Income"
+                   android:textColor="#07E410"
+                   android:textSize="30sp"
+                   android:textStyle="bold" />
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:gravity="center"
+               tools:ignore="Suspicious0dp">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:gravity="center"
+                   android:text="0.000"
+                   android:id="@+id/income_in_incomefragment"
+                   android:textColor="#07E410"
+                   android:textSize="30sp"
+                   android:textStyle="bold" />
+
+           </LinearLayout>
+
+
+       </LinearLayout>
+
+   </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp"
+        android:id="@+id/recyclerview_in_incomefragment">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</FrameLayout>

@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="App.Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">#013A03</item>
+        <item name="colorAccent">#00897B</item>
+
+        <item name="actionOverflowButtonStyle">@style/threedots</item>
+
+        <item name="drawerArrowStyle">@style/DrawerIconStyle</item>
+    </style>
+
+    <style name="appbarlayout" parent="Base.Theme.ExpensesTracker">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    </style>
+
+
+    <style name="Theme.HomeTheme" parent="Theme.AppCompat.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">#024D05</item>
+        <item name="colorPrimaryDark">#013A03</item>
+        <item name="colorAccent">#00897B</item>
+        <item name="titleTextColor">@color/white</item>
+        
+        <item name="actionOverflowButtonStyle">@style/threedots</item>
+
+        <item name="drawerArrowStyle">@style/DrawerIconStyle</item>
+
+    </style>
+
+    <style name="DrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+    </style>
+
+
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <!-- Customize the color of the positive button (usually "Yes") -->
+        <item name="colorAccent">#00897B</item>
+
+        <!-- Customize the color of the negative button (usually "No") -->
+        <item name="android:textColorSecondary">#00897B</item>
+    </style>
+
+
+    <style name="threedots" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="tint">#ffff</item>
+
+    </style>
+
+
+
+    <style name="AppTheme.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">#2cfe77</item> <!-- White background color -->
+        <!-- Other splash screen styles -->
+    </style>
+
+
+
+
+    <style name="Theme.ExpensesTracker" parent="Base.Theme.ExpensesTracker" />
+</resources>
